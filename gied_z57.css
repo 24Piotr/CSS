@@ -1,0 +1,15 @@
+* {
+    font-size: 35pt; /* 30 + 5(Piotr) = 35 */
+    background-color: yellow;
+    color: blue;
+}
+
+.klasa_nieuniwersalna_giedo {
+    font-size: 30pt; /* 25 + 5 (Giedo) = 30 */
+    color: purple;
+}
+
+.klasa_uniwersalna_giedo {
+    font-size: 31pt; /* 20 + 11 (listopad jest 11 miesiącem) = 31 */
+    color: black; 
+}
