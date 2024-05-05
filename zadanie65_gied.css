@@ -1,0 +1,34 @@
+p {
+    font-size: 10pt;
+}
+
+p:first-child {
+    font-size: 9mm;
+    font-style: italic;
+}
+ 
+div#pierwszy_giedo {
+    border: 3px rgb(0,0,0) solid;
+    border-radius: 12px;
+    background-color: rgb(144,238,144);
+    margin-left: auto;
+    margin-right: auto;
+    width: 740pt;
+}
+
+div#drugi_giedo {
+    border: 5px rgb(0,0,128) solid;
+    border-width: 5;
+    border-radius: 12px;
+    background-color: rgb(173,216,230);
+    margin-left: auto;
+    margin-right: auto;
+    width: 940pt;
+}
+
+div#trzeci_giedo {
+    border: 7px rgb(102,51,153) solid;
+    border-radius: 15px;
+    background-color: rgb(255,192,203);
+    width: 1140pt;
+}

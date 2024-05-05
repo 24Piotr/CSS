@@ -1,0 +1,44 @@
+.h1 {
+    font-size: 20pt;
+    color: navy;
+}
+
+.h1:first-letter {
+    font-size: 121pt;
+    color: gray;
+}
+
+.p1 {
+    font-size: 20pt;
+    color: navy;
+}
+
+.p1:first-letter {
+    font-size: 121pt;
+    color: red;
+}
+
+.p2 {
+    font-size: 18pt;
+    color: navy;
+}
+
+.p2:first-letter {
+    font-size: 121pt;
+    color: orange;
+}
+
+.p3 {
+    font-size: 18pt;
+    color: yellow;
+}
+
+.p3:first-letter {
+    font-size: 121pt;
+}
+
+.p3:first-line {
+    font-weight: bold;
+    font-size: 13pt;
+    color: red;
+}
