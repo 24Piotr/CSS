@@ -1,0 +1,42 @@
+body
+{
+background-color: RGB(130,95,51);
+}
+
+ul (selektor)
+{
+list-style: none; /*(styl listy: bez podpunktów )*/
+margin: 5px; /*(margines: 5px )*/
+padding: 0px; /*(odstęp międz zawartością a ramką: 0px )*/
+display: block; /* wyświetlanie blokowe*/
+width: 150px; /*szerokość 150px */
+}
+
+ul li
+{
+display: block;
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+
+
+ul a:link, /* (selektor linku ) */ ul a:visited /* (selektor, który będzie wyświetlać coś po odwiedzeniu tego linku )*/
+{
+display: block; /* element będzie wyświetlony w bloku ( odstęp z góry i z dołu)*/
+color: #005500; /*(kolor czcionki:  ciemno zielony)*/
+text-decoration: none; /*(dekoracja tekstu: brak )*/
+border: 2px outset #cccccc;
+ padding: 5px;
+ width: 120px;
+ background-color: rgb(110,40,80);
+}
+
+ul a:hover /*(selektor, który będzie wyświetlać coś po najechaniu na ten link )*/
+{
+color: #ff00ff;
+text-decoration: underline; /*(dekoracja tekstu: podkreślenie )*/
+border-style: inset; /*styl ramki: do środka*/
+ padding: 7px 3px 3px 7px; /*góra i zgodnie ze wskazówkami zegra.*/
+ background-color: rgb(130, 10, 40);
+}
